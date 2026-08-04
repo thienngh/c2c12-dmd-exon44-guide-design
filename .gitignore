@@ -216,3 +216,31 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project virtual environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Large genome datasets
+GRCm39_dataset/
+CH3_dataset/
+C3H_dataset/
+
+# Reference genome and annotation files
+*.fna
+*.fna.gz
+*.gtf
+*.gtf.gz
+*.gff
+*.gff3
+*.gbff
+*.gbff.gz
+
+# Generated sequence indexes
+*.seqio.idx
+*.fai
+
+# Local editor files
+.vscode/
+.idea/
